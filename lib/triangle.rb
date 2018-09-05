@@ -8,6 +8,6 @@ class Triangle
   end
   
   def kind 
-    :equilateral == Triangle.new(x, x, x)
+    :equilateral == Triangle.new()
   end
 end
